@@ -35,7 +35,7 @@ It’s designed to be beginner-friendly, well-documented, and easy to follow.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shrutipatil0314/python_do_it-.git
+  https://github.com/shrutipatil0314/SnakeBytes.git
    ```
 
 🛠 Requirements
