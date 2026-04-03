@@ -1,4 +1,4 @@
-﻿# snakeBytes
+﻿# SnakeBytes
 
 # 🐍 Learn Python Repository
 
