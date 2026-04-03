@@ -33,8 +33,9 @@ It’s designed to be beginner-friendly, well-documented, and easy to follow.
 
 ## 🚀 Getting Started
 
-1. Clone the repository: 
-   ``` https://github.com/shrutipatil0314/SnakeBytes.git ```
+1. Clone the repository:  ```bash
+    https://github.com/shrutipatil0314/SnakeBytes.git
+    ```
 
 🛠 Requirements
 • Python 3.x installed
