@@ -20,3 +20,4 @@ print(type(a))
 b = None
 print(type(b))
 
+print("Hello from datatype.py")
