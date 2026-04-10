@@ -22,7 +22,8 @@ By exploring this repo, you’ll gain hands-on practice with:
 ---
 
 📂 Repository Structure
-text
+
+
 📁 basics/            → Core Python exercises, Arithmetic & assignment operator examples
 
 📁 data_structures/   → Lists, sets, dicts, tuples
