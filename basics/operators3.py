@@ -1,6 +1,7 @@
 # // Associativity of operators \\
 
-#Associativity of operators determines the order in which operators of the same precedence are evaluated in an expression.
+#Associativity of operators determines the order in which operators of the same precedence are 
+#evaluated in an expression.
 #??associativity determines the order in which operators of the same precedence are evaluated
 #in Python, most operators are left-associative, meaning they are evaluated from left to right
 #for example, the expression a - b - c is evaluated as (a - b) - c
