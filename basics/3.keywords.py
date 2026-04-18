@@ -1,5 +1,5 @@
-import keywords 
-keywords_list = keywords.kwlist
+import  keyword 
+keywords_list = keyword.kwlist
 print(keywords_list)
 
 
