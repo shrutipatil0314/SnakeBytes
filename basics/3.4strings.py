@@ -5,9 +5,9 @@
 
 
 #/n
+#/t
 print("Hello\nWorld")
 
-#/t
 print("Hello\tWorld")
 
 # \\
