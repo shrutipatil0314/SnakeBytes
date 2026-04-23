@@ -20,17 +20,26 @@ print(message[7])  #& Output: W
 print(message[-1]) #& Output: ! 
 
 #**String Membership**
+
 #^^We can check if a substring is present in a string using the in keyword.
 print("Hello" in message)  #& Output: True
 print("Python" in message)  #& Output: False
 
 #**String Repetition**
+
 #^^We can repeat a string multiple times using the * operator.
 print("Hello " * 3)  #& Output: Hello Hello Hello
 
 #**String strip**
+
 #^^We can remove whitespace from the beginning and end of a string using the strip() method.
 text = "   Hello, World!   "
 print(text.strip())  #& Output: Hello, World!
 print(text.lstrip()) #& Output: Hello, World!   
 print(text.rstrip()) #& Output:    Hello, World!
+
+
+#**String replace**
+#^^We can replace a substring with another substring using the replace() method.
+text = "Hello, World!"
+print(text.replace("World", "Python"))  #& Output: Hello, Python!
