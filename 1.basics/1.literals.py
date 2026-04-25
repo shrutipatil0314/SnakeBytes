@@ -47,3 +47,7 @@ print(h)
 print(i)
 
 
+#summary:
+# The code demonstrates the use of different types of literals in Python, including integers, floats,
+#strings, booleans, and None. It shows how to define and use these literals, as well as their types
+# and some basic operations.
