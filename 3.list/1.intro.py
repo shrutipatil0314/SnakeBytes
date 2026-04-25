@@ -8,8 +8,8 @@
 my_list = [1, 2, 3, "hello", True]
 print(my_list)  #& Output: [1, 2, 3, 'hello', True]
 print(type(my_list))  #& Output: <class 'list'>
-py 
-#length of a list
+
+#**length of a list
 print(len(my_list))  #& Output: 5
 print(len([]))  #& Output: 0    
 
