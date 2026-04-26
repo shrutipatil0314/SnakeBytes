@@ -2,16 +2,16 @@
 
 #*removing from a list
 my_list = [1, 2, 3, 4, 5]
-my_list.remove(3)  #& Removes the first occurrence of 3
+my_list.remove(3)  #^ Removes the first occurrence of 3
 print(my_list)  #& Output: [1, 2, 4, 5]
 
 
 
 #*popping from a list
-popped_element = my_list.pop()  #&  Pops the last element
+popped_element = my_list.pop()  #^  Pops the last element
 print(popped_element)  #& Output: 5
 print(my_list)  #& Output: [1, 2, 4]
-popped_element = my_list.pop(1)  #& Pops the element at index 1
+popped_element = my_list.pop(1)  #^ Pops the element at index 1
 print(popped_element)  #& Output: 2
 print(my_list)  #& Output: [1, 4]   
 
