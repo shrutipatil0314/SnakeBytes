@@ -33,3 +33,28 @@ print(my_tuple[2:])  #& Output: (3, 'hello')
 a, b, c, d = my_tuple
 print(a)  #& Output: 1
 print(b)  #& Output: 2
+
+#*min
+print(min(my_tuple))  #& Output: 1
+
+#*max
+print(max(my_tuple))  #& Output: 'hello'
+
+#*index
+print(my_tuple.index('hello'))  #& Output: 3
+#*count
+print(my_tuple.count(2))  #& Output: 1
+
+#*sorted
+sorted_tuple = sorted(my_tuple)
+print(sorted_tuple)
+#& Output: [1, 2, 3, 'hello']
+
+#*reversed
+reversed_tuple = tuple(reversed(my_tuple))
+print(reversed_tuple)
+#& Output: ('hello', 3, 2, 1)
+
+#*sum - only works with numeric tuples
+numeric_tuple = (1, 2, 3, 4)
+print(sum(numeric_tuple))  #& Output: 10
