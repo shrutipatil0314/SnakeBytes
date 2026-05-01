@@ -107,29 +107,8 @@ print(result) #5
 #??and avoid any ambiguity in your expressions
 
 
-#||ternary|| 
 
-#also known as the conditional expression, has a lower precedence than most other operators    
-#for example, the expression a if condition else b is evaluated as a if condition else b
 
-a = 10
-b = 5
-condition = True
-result = a if condition else b
-print(result) #10
-
-#??in this case, the expression is evaluated as 10 if True else 5, which equals 10, resulting in 10
-#??if we want to change the order of evaluation, we can use parentheses
-
-result = (a if condition else b)
-print(result) #10
-
-#??in this case, the expression is evaluated as (10 if True else 5), 
-#which equals 10, resulting in 10
-#??understanding the precedence of the ternary operator is important for correctly interpreting
-#??and writing expressions in Python, especially when the ternary operator is involved
-#by using parentheses, you can explicitly specify the order of evaluation
-#??and avoid any ambiguity in your expressions
 
 #||//in summary, understanding the precedence and associativity of operators is crucial for writing
 #correct and unambiguous code in Python
