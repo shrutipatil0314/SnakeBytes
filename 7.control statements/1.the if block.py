@@ -4,6 +4,13 @@
 #^if a specified condition evaluates to True.
 #* indentation but the spaces to create block
 #*block is a multiple lines of code 
+
+#*syntax
+#*if condition:
+# Code to execute if the condition is True
+# (This code block MUST be indented)
+
+
 age = float(input("Enter your age: "))
 if age >= 18:
     print("You are an adult.")

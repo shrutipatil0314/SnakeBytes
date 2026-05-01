@@ -3,6 +3,12 @@
 #^The if-else statement allows your program to execute one block of code if the condition is
 #^True, and a different block of code if the condition is False. It provides an alternative path.
 
+#*syntax
+#*if condition:
+# Code to execute if the condition is True
+#*else:
+# Code to execute if the condition is False
+# (This code block MUST also be indented)
 
 age = float(input("Enter your age: "))
 if age >= 18:
