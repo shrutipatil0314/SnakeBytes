@@ -15,3 +15,21 @@
 #True
 #*else:
 # Code if all above conditions are False
+
+marks = float(input("Enter your marks: "))
+if marks >=90:
+    print("excellent")
+elif marks >=80 and marks <90:
+    print ("garde A")
+elif marks >=70 and marks <90:
+    print ("garde B")
+
+elif marks >=60 and marks <90:
+    print ("garde C")
+
+elif marks >=50 and marks <90:
+    print ("garde D")
+
+else:
+    print("fail")
+
