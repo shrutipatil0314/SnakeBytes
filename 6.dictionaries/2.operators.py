@@ -3,7 +3,7 @@
 content1 = {'youtube':10 , 'facebook':20 ,'instagarm': 40 }
 print(content1)
 
-#*fech the  content platform
+#*fech the  content platform 
 
 print(content1['youtube'])
 print(content1['facebook'])

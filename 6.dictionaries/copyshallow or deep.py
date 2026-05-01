@@ -32,7 +32,23 @@ print(f"elm2->{elm2}", id(elm2)) #&[1,2.5,[10,20,44],'python']
 #^ elm2 shallow copy gets created in new memory location 
 #^inner value have thery own memory addresses these adresses are not copied 
 #^or they are not diff same 
+
 elm [2][0]=50
 
 print(f"eml->{elm}", id(elm)) #&[100,2.5,[50,20,44],'python']
 print(f"elm2->{elm2}", id(elm2)) #&[1,2.5,[50,20,44],'python'] 
+
+#*deep copy
+#^ in deep copy inner element also gets copyed at different time 
+ls1 = [1,2.5,[10,20,44],'python']
+
+ls2 = copy.deepcopy(ls1)
+print(ls2)
+
+ls1[0]= 100
+ls1 [2][0]=50
+
+print(f"lsl->{ls1}", id(ls1)) #&[100,2.5,[50,20,44],'python']
+print(f"ls2->{ls2}", id(ls2)) #&[1,2.5,[10,20,44],'python'] 
+
+

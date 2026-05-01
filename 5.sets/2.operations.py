@@ -20,7 +20,7 @@ print(1 not in mem) #& false
 #print(mem * 2)
 #!! will give typeerror
 
-#typecasing 
+#*typecasing 
 weekday= {"monday","tuesday","wednesday","thursday","friday","saturday","sunday"}
 weekday=set(weekday)
 print(weekday)
