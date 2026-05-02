@@ -4,10 +4,12 @@
 # print(d1)
 #!! will give typeerror 
 
-#* key
-#^ key dont allowed list ,set , dict bc they are mutable datatype
-#^ key only allowed str , int , float , bool bc they are immutable datatype 
-#^ keys of a dictionay can only be mutable datatype 
+"""
+ key
+key dont allowed list ,set , dict bc they are mutable datatype
+key only allowed str , int , float , bool bc they are immutable datatype 
+keys of a dictionay can only be mutable datatype 
+"""
 
 
 #^ values can be any datatype
