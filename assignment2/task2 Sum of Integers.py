@@ -1,4 +1,5 @@
 # || Task 2: Sum of Integers from 1 to 50 Using a Loop ||
+
 sum_number =(input("Enter a number:"))
 n= int(sum_number)
 

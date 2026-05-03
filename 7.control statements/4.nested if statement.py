@@ -1,19 +1,24 @@
 #|| nested if statement ||
-#^A nested if-else statement in Python is simply an if or else block that contains 
-#^another if or else block inside it. This is useful when you need to check 
-#^multiple conditions that depend on one another.
 
-#*if outer_condition:
-    # Executes if outer_condition is True
-  #*  if inner_condition:
-        # Executes only if both outer and inner conditions are True
-    #*    print("Both conditions are met.")
-    #*else:
-        # Executes if outer is True but inner is False
-      #*  print("Outer met, but inner failed.")
-#*else:
-    # Executes if outer_condition is False
-  #*  print("Outer condition failed.")
+"""
+A nested if-else statement in Python is simply an if or else block that contains 
+another if or else block inside it. This is useful when you need to check 
+multiple conditions that depend on one another.
+"""
+
+"""
+if outer_condition:
+ Executes if outer_condition is True
+    if inner_condition:
+        Executes only if both outer and inner conditions are True
+        print("Both conditions are met.")
+    else:
+        Executes if outer is True but inner is False
+        print("Outer met, but inner failed.")
+else:
+ Executes if outer_condition is False
+    print("Outer condition failed.")
+"""
 
 marks = float(input("Enter your marks: "))
 if marks >=35:
