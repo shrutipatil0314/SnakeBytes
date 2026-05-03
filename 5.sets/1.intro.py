@@ -1,9 +1,11 @@
 #||   introdusction to sets in python  ||
-#^ sets are unordered collection of unique items
-#^ sets are mutable, meaning you can add or remove items from a set after it has
-#^ been created
-#^ sets are defined using curly braces {} or the set() function    
-#^ sets dont have duplicate elemants 
+"""
+ sets are unordered collection of unique items
+ sets are mutable, meaning you can add or remove items from a set after it has
+ been created
+ sets are defined using curly braces {} or the set() function    
+ sets dont have duplicate elemants 
+"""
 #* creating a set
 my_set = {1, 2, 3, 4, 5}
 print(my_set)

@@ -1,9 +1,11 @@
 #|| operations on set ||
 
 #* membership operator - in or not in 
-#^ in this operator checks and give us true if any element o
-#^ is present in a list a tuple and sets
+"""
+ in this operator checks and give us true if any element o
+ is present in a list a tuple and sets
 
+"""
 mem = {1,2,3,4,-5}
 print(0 in mem) #& false 
 print(1 not in mem) #& false

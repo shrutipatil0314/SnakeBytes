@@ -1,8 +1,9 @@
 # ! TYPE CASTING !
-#Converting one data type to another data type is called type casting.
-#In Python, we can convert data types using built-in functions like int(), float(), str(), etc.
-#Example of type casting
-
+"""
+Converting one data type to another data type is called type casting.
+In Python, we can convert data types using built-in functions like int(), float(), str(), etc.
+Example of type casting
+"""
 
 #Converting a string to an integer
 
@@ -44,7 +45,9 @@ num_float_2 = float(num_6)
 print(num_float_2) #Output: 3.14
 print(type(num_float_2)) #Output: <class 'float'>
 
+"""
 #Note: When converting a string to an integer or float, the string must be a valid representation of a number, otherwise it will raise a ValueError.    
+"""
 
 #ehwn we cahnge the data type of a variable, we can use the same variable name to store the new value. This is called variable reassignment. For example:
 num = 10

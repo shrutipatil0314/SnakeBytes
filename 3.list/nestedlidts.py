@@ -13,9 +13,11 @@ print(my_list[3][0])  #& Output: 4
 my_list[3][1] = 10
 print(my_list)  #& Output: [1, 2, 3, [4, 10, 6], 7, 8]
 
-#^explanation: my_list[3] accesses the nested list [4, 5, 6], and 
-#^my_list[3][1] accesses the second element of that nested list, which is 5. 
-#^We then change it to 10.
+"""
+explanation: my_list[3] accesses the nested list [4, 5, 6], and 
+my_list[3][1] accesses the second element of that nested list, which is 5. 
+We then change it to 10.
+"""
 
 #*Adding a new nested list
 my_list.append([9, 10])

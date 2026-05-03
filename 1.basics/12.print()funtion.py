@@ -1,9 +1,11 @@
 #||// print() function \\||
 
+"""
 #The print() function is a built-in function in Python 
 #that is used to display output on the console.
 #Syntax:
 # print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+"""
 
 #Example 1: Basic Usage
 print("Hello, World!")

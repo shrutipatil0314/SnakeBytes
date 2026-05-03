@@ -1,9 +1,10 @@
 #//logical operators\\#
-
+"""
 #Logical operators are used to combine conditional statements. They include:
 # and - returns True if both statements are true
 # or - returns True if at least one statement is true
 # not - reverse the result, returns False if the result is true
+"""
 
 a = 10
 b = 20

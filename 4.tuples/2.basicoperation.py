@@ -1,8 +1,9 @@
 #||     operations on tuples     ||
-# since tuples are immutable, we cannot modify them directly.
-# However, we can perform various operations on tuples to create new tuples or 
-# to access their elements.
-
+"""
+ since tuples are immutable, we cannot modify them directly.
+ However, we can perform various operations on tuples to create new tuples or 
+ to access their elements.
+"""
 #*Concatenation
 tuple1 = (1, 2, 3)
 tuple2 = ('a', 'b', 'c')

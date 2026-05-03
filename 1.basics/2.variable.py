@@ -1,9 +1,9 @@
 #Variable 
 
-
-#Variable is a container for storing data values. A Variable is created by assigning a value to it using the assignment operator (=). 
-# The value can be of any data type, such as a number, string, or list.
-
+"""
+Variable is a container for storing data values. A Variable is created by assigning a value to it using the assignment operator (=). 
+ The value can be of any data type, such as a number, string, or list.
+"""
 #example of Variable assignment and usage
 
 #1

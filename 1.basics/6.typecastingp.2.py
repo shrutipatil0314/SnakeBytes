@@ -1,6 +1,9 @@
 # ! TYPE CASTING BOOLEAN VALUES
+
+"""
 #In Python, we can also convert other data types to boolean values using the bool() function.
 #The following values are considered False in Python:
+"""
 
 VALLUES_CONSIDERED_FALSE = [0, 0.0, 0j, '', [], {}, set(), None, False]
 #All other values are considered True in Python.
@@ -84,5 +87,8 @@ bool_true_value = bool(true_value)
 print(bool_true_value) #Output: True
 
 
-
-#In summary, when we use the bool() function to convert a value to a boolean, it will return False for values that are considered "falsy" and True for all other values. This can be useful in conditional statements and when evaluating the truthiness of values in Python.
+"""
+In summary, when we use the bool() function to convert a value to a boolean, 
+it will return False for values that are considered "falsy" and True for all other values. 
+This can be useful in conditional statements and when evaluating the truthiness of values in Python.
+"""

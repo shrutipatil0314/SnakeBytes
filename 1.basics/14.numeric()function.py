@@ -47,5 +47,7 @@ imaginary_part = 3
 complex_num = complex(real_part, imaginary_part)
 print(complex_num)  # Output: (2+3j)
 
+"""
 #!!These are just a few examples of the numeric functions available in Python.
 #!!You can explore more functions in the Python documentation for further mathematical operations.
+"""
