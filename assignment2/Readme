@@ -9,7 +9,7 @@ It includes two tasks:
 
 📝 Task Details
 
-ask 1: Check if a Number is Even or Odd
+Task 1: Check if a Number is Even or Odd
 
 **Input:** An integer entered by the user.
 **Process:** Uses an `if-else` statement to check divisibility by 2.
