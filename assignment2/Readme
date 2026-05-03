@@ -1,0 +1,40 @@
+Assignment 2 - Module 3: Control Structures in Python
+📘 Overview
+
+This assignment covers **basic control structures in Python**.  
+It includes two tasks:
+
+1. Checking if a number is even or odd using an `if-else` statement.
+2. Calculating the sum of integers from 1 to 50 using a `for` loop.
+
+📝 Task Details
+
+ask 1: Check if a Number is Even or Odd
+
+**Input:** An integer entered by the user.
+**Process:** Uses an `if-else` statement to check divisibility by 2.
+**Output:** Displays whether the number is _Even_ or _Odd_.
+
+**Example Output:**
+
+Enter a number: 7
+7 is Odd
+
+Task 2: Sum of Integers from 1 to 50
+
+**Process:** Uses a `for` loop to iterate from 1 to 50.
+**Calculation:** Adds all integers in the range.
+**Output:** Displays the final sum.
+
+**Example Output:**
+
+The sum of integers from 1 to 50 is: 1275
+
+▶️ How to Run
+
+1. Open the folder containing the scripts.
+2. Run each script using Python:
+   ```bash
+   python task1.py
+   python task2.py
+   ```
