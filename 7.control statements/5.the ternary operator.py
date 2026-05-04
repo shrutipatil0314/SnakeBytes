@@ -12,7 +12,10 @@ if num %2 == 0:
 else:
   print("odd")
 
-#* true-expression if conditionelse false-expression
-#^one liner
+"""
+* true-expression if conditionelse false-expression
+^one liner
+"""
+
 print("even") if num %2 ==0 else print("odd")
 

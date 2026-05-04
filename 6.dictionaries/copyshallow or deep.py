@@ -24,8 +24,11 @@ both elm and elm2 have differentt memory addresses
 print(id(elm))
 print(id(elm2))
 
-#^ change first value of elm 
-#^ the memory addresse of elm and elm2 are diff
+"""
+^ change first value of elm 
+^ the memory addresse of elm and elm2 are diff
+"""
+
 elm[0]= 100
 
 print(f"eml->{elm}", id(elm)) #&[100,2.5,[10,20,44],'python']
@@ -43,8 +46,10 @@ elm [2][0]=50
 print(f"eml->{elm}", id(elm)) #&[100,2.5,[50,20,44],'python']
 print(f"elm2->{elm2}", id(elm2)) #&[1,2.5,[50,20,44],'python'] 
 
-#*deep copy
-#^ in deep copy inner element also gets copyed at different time 
+"""
+*deep copy
+^ in deep copy inner element also gets copyed at different time 
+"""
 
 ls1 = [1,2.5,[10,20,44],'python']
 

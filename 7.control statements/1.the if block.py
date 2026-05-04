@@ -8,10 +8,10 @@ if a specified condition evaluates to True.
 """
 
 """
-#*syntax
-#*if condition:
-# Code to execute if the condition is True
-# (This code block MUST be indented)
+*syntax
+*if condition:
+ Code to execute if the condition is True
+ (This code block MUST be indented)
 """
 
 
