@@ -9,9 +9,11 @@ print(content1['youtube'])
 print(content1['facebook'])
 print(content1['instagarm'])
 
-#* get
-#^ get fech the key , so the key is not present get will give 
-#^ you the output as none
+"""
+* get
+^ get fech the key , so the key is not present get will give 
+^ you the output as none
+"""
 
 print(content1.get('youtube'))
 print(content1.get('whatsapp'))
@@ -21,15 +23,16 @@ print(content1.get('netfilx',30.5))
 emp1 = {'id': 1001, 'name' : 'shruti', 'salary ': 50000}
 print(emp1.get ('phone', 912345577222 ))
 
-
-#*membership operator => in
+"""
+*membership operator => in
 print (1001 in emp1)
-#& output : false
-#^ membership operator does not look at value but it looks for the key 
+& output : false
+^ membership operator does not look at value but it looks for the key 
 
 print ('id' in emp1)
-#& output true
+& output true
 
+"""
 #*update function 
 sem1= {'dsa':78.5, 'dbms' :72.7, 'c++':86.9}
 sem2={'cn':44.3 , 'entc':90.44}

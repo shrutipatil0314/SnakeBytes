@@ -9,18 +9,22 @@
 my_tuple = (1, 2, 3, 'hello', [4, 5], (6, 7))
 print(my_tuple)  #& Output: (1, 2, 3, 'hello', [4, 5], (6, 7))
 
-#*Accessing elements in a tuple
+"""
+*Accessing elements in a tuple
 print(my_tuple[0])  #& Output: 1
 print(my_tuple[3])  #& Output: 'hello'
 print(my_tuple[4])  #& Output: [4, 5]
 print(my_tuple[5])  #& Output: (6, 7)
 print(my_tuple[4][0])  #& Output: 4
 print(my_tuple[5][0])  #& Output: 6
+"""
 
+"""
 #*Tuples are immutable
 # my_tuple[0] = 10  #^ This will raise a TypeError because tuples 
                          #^cannot be modified
 # print(my_tuple)
+"""
 
 #*However, if a tuple contains mutable objects like lists,
 # we can modify those mutable objects.
