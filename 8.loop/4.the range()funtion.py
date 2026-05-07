@@ -39,3 +39,6 @@ for index in range (len(groceries)):
     q=index+1
     
     print (q,groceries[index])
+
+
+
