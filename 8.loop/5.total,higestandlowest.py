@@ -30,3 +30,6 @@ for i in num1:
     if i<lowest:
         lowest=i
 print(lowest)
+
+lowest=min(num1)
+print(lowest)
