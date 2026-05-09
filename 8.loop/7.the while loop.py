@@ -1,37 +1,38 @@
-#|| the while loop ||
+#|| The elif Statement (Else If)  ||
+
 """
-The while loop is used to execute a block of code repeatedly as long as a certain condition is true.
-The syntax of a while loop is as follows:
-while condition:
-    # code to be executed
+ When you have more than two possible outcomes (more than just True or False), you use
+ the elif (short for "else if") statement. This allows you to check multiple conditions
+ sequentially.
 """
 
-#|| example of while loop ||
-i=1
-while i<=5:
-    print(i)
-    i=i+1
+"""
+*Syntax:
 
+*if condition1:
+ Code if condition1 is True
+*elif condition2:
+ Code if condition1 is False AND condition2 is True
+*elif condition3:
+ Code if condition1 is False AND condition2 is False AND condition3 is
+True
+*else:
+ Code if all above conditions are False
+"""
+marks = float(input("Enter your marks: "))
+if marks >=90:
+    print("excellent")
+elif marks >=80 and marks <90:
+    print ("garde A")
+elif marks >=70 and marks <90:
+    print ("garde B")
 
-#|# example of while loop with else ||
-i=1
-while i<=5:
-    print(i)
-    i=i+1
+elif marks >=60 and marks <90:
+    print ("garde C")
+
+elif marks >=50 and marks <90:
+    print ("garde D")
+
 else:
-    print("i is greater than 5")
-    print("end of loop")
+    print("fail")
 
-
-#
-#|| example of while loop with break ||
-i=1
-while i<=5:
-    if i==3:
-        break
-    print(i)
-    i=i+1
-else:
-    print("i is greater than 5")
-    print("end of loop")
-    
