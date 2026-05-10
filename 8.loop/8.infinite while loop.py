@@ -1,57 +1,30 @@
-#|| continue and break ||
-
+# Infinite While Loop
 """
-continue and break are used to control the flow of a loop.
-continue skips the current iteration and moves to the next one.
-break exits the loop entirely.
+Infinite Loop: This is the most critical error with while loops. It happens when the 
+condition never becomes False, causing the loop to run endlessly. Your program will 
+appear to freeze, or it might continuously print output. 
+Python does not have a built-in mechanism to stop an infinite loop, so you will need to manually interrupt it 
+(e.g., by pressing Ctrl+C in the terminal) to regain control of your program.
 """
-
-#|| continue ||
-for i in range(1, 11):
-    if i%2==0:
-        continue
-    print(i)
-
-#|| break ||
-for i in range(1, 11):
-    if i==5:
-        break
-    print(i)
-
-#|| the while loop ||
 """
-The while loop is used to execute a block of code repeatedly as long as a certain condition is true.
-The syntax of a while loop is as follows:
-while condition:
-    # code to be executed
+counter = 0 
+while counter < 5: 
+    print("Stuck!") #! This will print "Stuck!" forever 
+#* Missing: counter += 1 
 """
 
-#|| example of while loop ||
-i=1
-while i<=5:
-    print(i)
-    i=i+1
+correct_password ="secret"
 
+while True : #infinte loop
+    user_input = input("Enter the password: ")
+    if user_input == correct_password:
+        print("Access granted!")
+        break # Exit the loop when the correct password is entered
+    else:
+        print("Incorrect password, try again.")
 
-#|# example of while loop with else ||
-i=1
-while i<=5:
-    print(i)
-    i=i+1
-else:
-    print("i is greater than 5")
-    print("end of loop")
+num = 20
 
-
-#
-#|| example of while loop with break ||
-i=1
-while i<=5:
-    if i==3:
-        break
-    print(i)
-    i=i+1
-else:
-    print("i is greater than 5")
-    print("end of loop")
-    
+while num >=10:
+    print(num)
+    num = num-2
