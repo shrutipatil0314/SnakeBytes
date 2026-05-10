@@ -1,31 +1,17 @@
-#|| The if Statement ||
+#|| random  mudule ||
 
-"""
- The if statement is the simplest decision-making statement. It executes a block of code only
-if a specified condition evaluates to True.
-*indentation but the spaces to create block
-*block is a multiple lines of code 
-"""
+import random
+#* random()  0.0 ~ 1.0
+print(random.random())
 
-"""
-*syntax
-*if condition:
- Code to execute if the condition is True
- (This code block MUST be indented)
-"""
+#* randint(a, b)  a ~ b
+print(random.randint(a=10, b=15))
 
+#* choice()  list, tuple, string
+options = ["rock", "paper", "scissors"]
+print(random.choice(options))
 
-age = float(input("Enter your age: "))
-if age >= 18:
-    print("You are an adult.")
-
-print("welcome")
-
-age2= float(input("Enter your age: "))
-if age2 <= 18:
-   print("You are an child")
-print("welcome")
-
-
-
-# Nothing is printed because the condition (16 >= 18) is False
+#*  shuffle()  list
+cards = ["Ace", "King", "Queen", "Jack"]
+random.shuffle(cards)
+print(cards)

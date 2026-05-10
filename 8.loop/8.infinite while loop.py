@@ -1,4 +1,4 @@
-# Infinite While Loop
+#|| Infinite While Loop||
 """
 Infinite Loop: This is the most critical error with while loops. It happens when the 
 condition never becomes False, causing the loop to run endlessly. Your program will 
