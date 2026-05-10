@@ -1,38 +1,12 @@
-#|| The elif Statement (Else If)  ||
-
+# A while loop continues
 """
- When you have more than two possible outcomes (more than just True or False), you use
- the elif (short for "else if") statement. This allows you to check multiple conditions
- sequentially.
+A while loop continues to execute a block of code as long as a specified condition remains True
+. It is typically chosen when the programmer does not know the exact number of repetitions required when the loop begins, such as waiting for a specific user input
 """
 
-"""
-*Syntax:
-
-*if condition1:
- Code if condition1 is True
-*elif condition2:
- Code if condition1 is False AND condition2 is True
-*elif condition3:
- Code if condition1 is False AND condition2 is False AND condition3 is
-True
-*else:
- Code if all above conditions are False
-"""
-marks = float(input("Enter your marks: "))
-if marks >=90:
-    print("excellent")
-elif marks >=80 and marks <90:
-    print ("garde A")
-elif marks >=70 and marks <90:
-    print ("garde B")
-
-elif marks >=60 and marks <90:
-    print ("garde C")
-
-elif marks >=50 and marks <90:
-    print ("garde D")
-
-else:
-    print("fail")
+# Example: A simple while loop that counts from 1 to 5
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
 
