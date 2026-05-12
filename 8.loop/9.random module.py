@@ -1,4 +1,4 @@
-#|| random  mudule ||
+#|| random  module ||
 
 import random
 #* random()  0.0 ~ 1.0
