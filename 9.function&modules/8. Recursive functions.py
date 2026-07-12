@@ -1,4 +1,4 @@
-# // recursive function to calculate the factorial of a number
+# // recursive function to calculate the factorial of a number //
 """
 factorial of n => n * (n-1)*(n-2)*...2*1
 n!
