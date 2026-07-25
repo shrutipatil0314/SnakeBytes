@@ -5,4 +5,4 @@
 sequence = [1, 2, 3, 4, 5]
 mapped_result = map(lambda x: x * 2, sequence)
 print(mapped_result)
-print(f"double of each number in the list are : {list(mapped_result)}")
+print(f"double of each number in the list are : {list(mapped_result)}")         
