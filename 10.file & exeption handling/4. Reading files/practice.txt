@@ -1,0 +1,6 @@
+THIS IS A TEST FILE
+WE ARE LEARNING FILE HANDLING IN PYTHON
+this file is overwritten using 'w' mode
+have a nice day!
+this file is created using this 'x' mode in python. 
+next line.

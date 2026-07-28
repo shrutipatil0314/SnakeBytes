@@ -1,0 +1,47 @@
+Assignment 3  Module 4: Functions & Modules in Python
+
+This project contains the solutions for Task 1 and Task 2 of Assignment 3.
+
+Files
+File	                    Description
+factorial.py	            Task 1 – Calculates the factorial of a number using a function
+math_calculations.py	     Task 2 – Uses the math module to calculate square root, natural logarithm, and sine
+
+
+Task 1: Calculate Factorial Using a Function
+
+Description: Defines a function factorial(n) that calculates the factorial of a number using a loop, returns the result, 
+and prints it after taking user input.
+
+How to run:
+
+bash
+python factorial.py
+
+Example run:
+
+Enter a number: 5
+Factorial of 5 is: 120
+
+Task 2: Using the Math Module for Calculations
+
+Description: Asks the user for a number, then uses Python's built-in math module to calculate:
+
+Square root
+Natural logarithm (base e)
+Sine (in radians)
+
+How to run:
+
+bash
+python math_calculations.py
+
+Example run:
+
+Enter a number: 25
+Square root: 5.0
+Logarithm: 3.2188758248682006
+Sine: -0.13235175009777303
+Requirements
+Python 3.x
+No external libraries needed (the math module is part of the Python standard library)
