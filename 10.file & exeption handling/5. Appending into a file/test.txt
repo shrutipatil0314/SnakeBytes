@@ -1,0 +1,4 @@
+
+ Hello, World!this content has been written using  'a' mode. 
+'a' mode is used to add new content at the end od the file without overwriting the existing content. 
+If the file does not exist, it will be created. 

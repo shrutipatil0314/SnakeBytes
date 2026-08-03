@@ -1,0 +1,3 @@
+this file has been created using 'a' mode. 
+If the file does not exist, it will be created. 
+If the file already exists, it opens the file in append mode and the new data will be written at the end of the file without overwriting the existing content. 
