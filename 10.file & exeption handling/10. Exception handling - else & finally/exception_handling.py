@@ -1,6 +1,6 @@
-try: 
+try:
     with open("file.txt", "r") as file:
-        data = fh .read()
+        data = file.read()
     print(data)
 
 except FileNotFoundError as file_error:
