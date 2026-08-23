@@ -7,7 +7,10 @@ students = {'student1': { 'roll': 1, 'name': 'John', 'age': 20, 'major': 'Comput
 print(students)
 print(type(students))
 
-#dump 
+#load
 
-with open("students.json", "w") as fh:
-    json.dump(students, fh, indent=4)
+with open("students.json", "r") as fh:
+    loaded_students = json.load(fh)
+    
+print(loaded_students)
+print(type(loaded_students))
