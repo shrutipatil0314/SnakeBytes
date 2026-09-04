@@ -3,9 +3,8 @@
 # the `re` module provides support for working with regular expressions.
 """
 message = "Hello , welcome to the world of regular expressions!" 
-"""
 #^ To use regular expressions in Python, you need to import the `re` module.
-"""
+
 print("Original message" in message)  #* Check if the substring "Original message" is in the message
 print("Hello" in message)  #* Check if the substring "Hello" is in the message (case-sensitive  )
 print("Original message:", message)
