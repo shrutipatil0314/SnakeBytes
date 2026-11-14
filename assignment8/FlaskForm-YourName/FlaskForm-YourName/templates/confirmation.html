@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Confirmed</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>Registration Successful</h1>
+        <p class="subtitle">Thanks, {{ name }}! Here are the details you submitted:</p>
+
+        <table>
+            <tr><th>Name</th><td>{{ name }}</td></tr>
+            <tr><th>City</th><td>{{ city }}</td></tr>
+            <tr><th>Phone Number</th><td>{{ phone }}</td></tr>
+        </table>
+
+        <a class="button" href="{{ url_for('home') }}">Register another person</a>
+    </div>
+</body>
+</html>
